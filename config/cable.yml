@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  username: myusertrace
+  password: mypasstrace
+
+test:
+  adapter: async
+
+production:
+  adapter: postgresql
+  channel_prefix: production
